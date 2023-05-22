@@ -1,0 +1,15 @@
+<h1 class="container"> Stupid Coaching </h1>
+
+<div class="container" width="200px">
+  <%= @question.capitalize %>
+  <p> <em>- You </em> </p>
+</div>
+<br>
+<div class="container" width="200px">
+  <%= @answer %>
+  <p> <em>- Your Coach </em> </p>
+</div>
+<br>
+<div class="container">
+  <%= link_to "Ask another question", "/ask" %>
+</div>
